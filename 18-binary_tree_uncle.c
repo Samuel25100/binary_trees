@@ -23,7 +23,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	else
 		return (NULL);
 	if (gp->left == NULL || gp->right == NULL)
-		return NULL;
+		return (NULL);
 	if (gp->left->n == val)
 		return (gp->right);
 	return (gp->left);
