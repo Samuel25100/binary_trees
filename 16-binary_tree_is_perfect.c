@@ -8,7 +8,7 @@ size_t tree_size(const binary_tree_t *tree);
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	size_t l, l_s, r_s, r;
+	size_t l, r, l_s, r_s;
 
 	l = tree_height(tree->left);
 	r = tree_height(tree->right);
